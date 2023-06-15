@@ -1,0 +1,84 @@
+.body {
+  /* Web */
+  position: relative;
+  width: 1440px;
+  height: 976px;
+  left: 698px;
+  top: 1850px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+}
+
+.SelectSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  width: 1123px;
+  height: 743px;
+  left: 155px;
+  top: 58px;
+}
+
+#select {
+  width: 307px;
+  height: 40px;
+  font-family: "Inter" roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#sectionBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+
+  width: 903px;
+  height: 587px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+#ProfileSummary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 903px;
+  height: 35px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  width: 903px;
+  height: 0px;
+
+  background: #000000;
+  /* Neutral Light Grey */
+
+  border: 1px solid #e6e6e6;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
